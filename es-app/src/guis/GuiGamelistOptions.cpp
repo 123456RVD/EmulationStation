@@ -249,9 +249,10 @@ void GuiGamelistOptions::save()
 	Settings::getInstance()->saveFile();
 }
 
-void GuiGamelistOptions::SurpriseMe()
+/* void GuiGamelistOptions::SurpriseMe()
 {
 	LOG(LogDebug) << "GuiGamelistOptions::SurpriseMe()";
 	ViewController::get()->goToRandomGame();
 	delete this;
 }
+*/
